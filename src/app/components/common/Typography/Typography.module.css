@@ -1,0 +1,72 @@
+.number {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 200px;
+    line-height: 200px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+
+.subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7b7b7b;
+    text-align: left;
+}
+
+
+@media (max-width: 1200px) {
+    .number {
+        font-size: 180px;
+    }
+
+    .text {
+        font-size: 44px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .number {
+        font-size: 150px;
+    }
+
+    .text {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .number {
+        font-size: 120px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+}

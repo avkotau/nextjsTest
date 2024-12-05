@@ -1,0 +1,15 @@
+.borderActive {
+    border-left: 4px solid #3F8EF7;
+    padding-left: 64px;
+}
+
+.borderUnActive {
+    border-left: 4px solid #191919;
+    padding-left: 64px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

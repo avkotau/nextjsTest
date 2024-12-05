@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.numberText {
+    width: 256px;
+    margin-right: 80px;
+    padding-right: 80px;
+}
+
+@media (max-width: 1200px) {
+    .numberText {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .numberText {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .wrapper {
+        flex-direction: column;
+    }
+}
